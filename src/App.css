@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Anybody:ital,wdth,wght@0,50..150,100..900;1,50..150,100..900&display=swap");
+
+
+
+
+/* Reset default margins and paddings */
+
+
+h1{
+    font-family: 'Anybody', sans-serif;
+  
+    text-shadow: 3px 3px 5px #000000;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+/* Flexbox container for two images */
+.img {
+  display: flex;
+  gap: 20px; /* Space between the two images */
+}
+
+/* Make sure images scale properly */
+.logo {
+  width: 40%; /* Adjust as needed */
+  height: auto;
+}
+.belle{
+  width:40%; /* Adjust as needed */
+  height: auto;
+}

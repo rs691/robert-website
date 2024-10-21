@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Anybody:ital,wdth,wght@0,50..150,100..900;1,50..150,100..900&display=swap");
+
+
+.education{
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-top: 100px;
+    text-align: center;
+    font-family: 'Anybody', sans-serif;
+   
+    font-size: 50px;
+    text-shadow: 3px 3px 5px #000000;
+}
+
+.education h1{
+    font-size: 170px;
+    font-weight: 600;
+    
+    
+    font-family: "Anybody", sans-serif;
+    font-variation-settings: "wdth" 64.16, "slnt" 0, "wght" 490;
+    line-height: 0.83em;
+    text-align: center;
+    text-shadow: 3px 3px 5px #000000;  
+}
+.heading h1{
+    font-size: 170px;
+    font-weight: 600;
+    color:#F44250;
+    font-family: "Anybody", sans-serif;
+    font-variation-settings: "wdth" 64.16, "slnt" 0, "wght" 490;
+    line-height: 0.83em;
+    text-align: center;  
+}
+.img-thumbnail{
+    background-color: black;
+}
