@@ -269,18 +269,10 @@ line-height: 0.83em;
   .scrollText h1 {
     text-align: left;
   }
-
-
-
-
-
-  .stickyText h1, .stickyText h2 {
+  .stickyText h1 {
     margin: 10px;
     text-align: center;
    
 }
   }
-  .stickyText h1, .stickyText h2 {
-    margin: 10px;
-    text-align: center;
-  }
+ 

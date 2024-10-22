@@ -15,7 +15,7 @@ function Other() {
    
     <div>
       <h1>Your Page Content</h1>
-      <PDFResumeModal pdfUrl="./public/resume.pdf" />
+      <PDFResumeModal pdfUrl="./resume.pdf" />
     </div>
     </div>
   );

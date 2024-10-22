@@ -1,8 +1,8 @@
 import { useEffect, useRef, useState, useMemo } from "react";
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 import { useLocation, useNavigate, Outlet } from 'react-router-dom';
-import styles from "./MainParallax.module.css";
-
+// import styles from "./MainParallax.module.css";
+import styles from './styles.module.css';
 
 const MainParallax = () => {
     const alignCenter = { display: "flex", alignItems: "center" };
@@ -86,8 +86,9 @@ const handleBack = (e) => {
                 style={{ ...alignCenter, justifyContent: "center" }}
               >
                 <div className={styles.stickyText}>
-                  <h1>This is a short story about a software
-                     developer named Rob</h1>
+                  <h1>This is a short story about a</h1>
+                  <h1>software developer named Rob</h1>
+                   
                   </div>
 
               </ParallaxLayer>
@@ -97,7 +98,7 @@ const handleBack = (e) => {
                 style={{ ...alignCenter, justifyContent: "flex-start", zIndex: -1 }}
               >
                 <div className={`${styles.stickyText}`}>
-                  <h1>heres a little about my education</h1>
+                heres a little about my education.
                 </div>
                
               </ParallaxLayer>
@@ -106,8 +107,8 @@ const handleBack = (e) => {
                 sticky={{ start: 3, end: 4 }}
                 style={{ ...alignCenter, justifyContent: "flex-start", zIndex: -1 }}
               >
-                <div className={`${styles.stickyText} ${styles.sticky}`}>
-                  <h1>where i worked and what i did</h1>
+                <div className={`${styles.stickyText}`}>
+                where i worked and what i did.
                   
                 </div>
              
@@ -117,9 +118,9 @@ const handleBack = (e) => {
                 sticky={{ start: 5, end: 6 }}
                 style={{ ...alignCenter, justifyContent: "flex-start", zIndex: -1 }}
               >
-                <div className={`${styles.stickyText} ${styles.sticky}`}>
-                  <h1>heres how to contact me.</h1>
+                <div className={`${styles.stickyText}`}>
                   
+                  heres how to contact me.
                 </div>
               </ParallaxLayer>
 
@@ -127,8 +128,8 @@ const handleBack = (e) => {
                 sticky={{ start: 7, end: 8 }}
                 style={{ ...alignCenter, justifyContent: "flex-start", zIndex: -1 }}
               >
-                <div className={`${styles.stickyText} ${styles.sticky}`}>
-                  <h1>Other.</h1>
+                <div className={`${styles.stickyText}`}>
+                  here are some interesting things.
                   
                 </div>
               </ParallaxLayer>
